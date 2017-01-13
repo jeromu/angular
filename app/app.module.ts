@@ -1,11 +1,12 @@
 import { NgModule }      from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { Ng2PaginationModule } from 'ng2-pagination';
+import { AppComponent }  from './app.component'; 
 
-import { AppComponent }  from './app.component';
 
-@NgModule({
-  imports:      [ BrowserModule ],
+@NgModule({ 
+  imports:      [ BrowserModule , Ng2PaginationModule ],
   declarations: [ AppComponent ],
-  bootstrap:    [ AppComponent ]
+  bootstrap:    [ AppComponent ],
 })
 export class AppModule { }

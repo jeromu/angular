@@ -25,6 +25,7 @@
 
       // other libraries
       'rxjs':                      'npm:rxjs',
+      'ng2-pagination':            'npm:ng2-pagination',
       'angular-in-memory-web-api': 'npm:angular-in-memory-web-api/bundles/in-memory-web-api.umd.js'
     },
     // packages tells the System loader how to load when no filename and/or no extension
@@ -34,6 +35,10 @@
         defaultExtension: 'js'
       },
       rxjs: {
+        defaultExtension: 'js'
+      },
+      'ng2-pagination': {
+         main: './index.js',
         defaultExtension: 'js'
       }
     }
